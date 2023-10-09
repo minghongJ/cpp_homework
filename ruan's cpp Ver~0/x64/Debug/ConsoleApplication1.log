@@ -1,0 +1,41 @@
+﻿  APP.cpp
+  Data.cpp
+  inquiry.cpp
+  MainPMS.cpp
+  Menu.cpp
+  MenuFactory.cpp
+  MenuMgr.cpp
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): error C2665: “std::shared_ptr<MenuMgr>::shared_ptr”: 没有重载函数可以转换所有参数类型
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1467,5): message : 可能是“std::shared_ptr<MenuMgr>::shared_ptr(std::nullptr_t) noexcept”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::nullptr_t) noexcept”: 无法将参数 1 从“MenuMgr *”转换为“std::nullptr_t”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,50): message : nullptr 只能转换成指针或句柄类型
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1562,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)”: 无法从“MenuMgr *”推导出“std::unique_ptr<_Ux,_Dx> &&”的 模板 参数
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1551,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(std::auto_ptr<_Other> &&)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::auto_ptr<_Other> &&)”: 无法从“MenuMgr *”推导出“std::auto_ptr<_Other> &&”的 模板 参数
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1543,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(const std::weak_ptr<_Ty2> &)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(const std::weak_ptr<_Ty2> &)”: 无法从“MenuMgr *”推导出“const std::weak_ptr<_Ty2> &”的 模板 参数
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1538,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(std::shared_ptr<_Ty2> &&) noexcept”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::shared_ptr<_Ty2> &&) noexcept”: 无法从“MenuMgr *”推导出“std::shared_ptr<_Ty2> &&”的 模板 参数
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1528,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(const std::shared_ptr<_Ty2> &) noexcept”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(const std::shared_ptr<_Ty2> &) noexcept”: 无法从“MenuMgr *”推导出“const std::shared_ptr<_Ty2> &”的 模板 参数
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1518,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(std::shared_ptr<_Ty2> &&,MenuMgr *) noexcept”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::shared_ptr<_Ty2> &&,MenuMgr *) noexcept”: 应输入 2 个参数，却提供了 1 个
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1512,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(const std::shared_ptr<_Ty2> &,MenuMgr *) noexcept”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(const std::shared_ptr<_Ty2> &,MenuMgr *) noexcept”: 应输入 2 个参数，却提供了 1 个
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1507,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(std::nullptr_t,_Dx,_Alloc)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::nullptr_t,_Dx,_Alloc)”: 应输入 3 个参数，却提供了 1 个
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1501,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(std::nullptr_t,_Dx)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(std::nullptr_t,_Dx)”: 应输入 2 个参数，却提供了 1 个
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1495,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(_Ux *,_Dx,_Alloc)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(_Ux *,_Dx,_Alloc)”: 应输入 3 个参数，却提供了 1 个
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1487,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(_Ux *,_Dx)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : “std::shared_ptr<MenuMgr>::shared_ptr(_Ux *,_Dx)”: 应输入 2 个参数，却提供了 1 个
+D:\Visual Studio\VC\Tools\MSVC\14.35.32215\include\memory(1473,5): message : 或    “std::shared_ptr<MenuMgr>::shared_ptr(_Ux *)”
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,52): message : “std::shared_ptr<MenuMgr>::shared_ptr(_Ux *)”: 无法推导“__formal”的 模板 参数
+D:\大学文件汇总\2023-2024学年第一学期\C++课程设计\基于控制台菜单的采购管理系统\ConsoleApplication1\MenuMgr.cpp(8,38): message : 尝试匹配参数列表“(MenuMgr *)”时
+  order.cpp
+  product.cpp
+  purchase.cpp
+  vendor.cpp
+  正在生成代码...
